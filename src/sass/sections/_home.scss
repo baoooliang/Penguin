@@ -1,11 +1,11 @@
 .home {
-  margin-top: 6rem;
+  margin-top: 3rem;
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 32px;
     .content {
-      margin-top: 3rem;
+      margin-top: 9rem;
       display: flex;
       flex-direction: column;
       gap: 2rem;
@@ -50,6 +50,7 @@
       z-index: 10;
       .image {
         img {
+          width: 100%;
         }
       }
       .ellipse-container {

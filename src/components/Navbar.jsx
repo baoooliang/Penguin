@@ -41,10 +41,10 @@ export default function Navbar({ changeTheme, currentTheme }) {
             <a href="#about">Whitepaper</a>
           </li>
           <li>
-            <a href="#launch">Discord</a>
+            <a href="https://discord.gg/AuWHXUgmwe" target="_blank">Discord</a>
           </li>
           <li>
-            <a href="#signup">Twitter</a>
+            <a href="https://twitter.com/NFTPPenguins" target="_blank">Twitter</a>
           </li>
           <li onClick={changeTheme}>
             {currentTheme === "dark" ? (
