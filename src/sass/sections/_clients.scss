@@ -3,10 +3,11 @@
   .container {
     .clients-container {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(6, 1fr);
       text-align: center;
       .client {
         img {
+          width: 115px;
         }
       }
     }
@@ -20,11 +21,10 @@
         gap: 1rem;
 
         .client {
-          &:nth-of-type(5) {
+          &:nth-of-type(6) {
             display: none;
           }
           img {
-            height: 1.5rem;
           }
         }
       }

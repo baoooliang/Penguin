@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import icon from "../assets/icon.png";
-import penguin from "../assets/Penguin.png";
+import penguin from "../assets/main_avatar.jpg";
 
 export default function Free() {
   return (

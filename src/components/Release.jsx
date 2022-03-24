@@ -2,22 +2,23 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import release1 from "../assets/release1.png";
 import release2 from "../assets/Penguin.png";
+import avatar from "../assets/main_avatar.jpg";
 import Card from "./Card";
 
 export default function Release() {
   return (
     <div className="releases">
-      <div className="release green">
+      <div className="release blue">
         <div className="card-container">
           <Card
-            image={release2}
-            series="Gloop Series"
-            title="Purple Man"
-            price={3.95}
-            tag="1094"
+            image={avatar}
+            series="Protected Penguin"
+            title="Main Avatar"
+            price={0.1}
+            tag="0"
             time={2}
           />
-          <div className="ellipse orange"></div>
+          <div className="ellipse white"></div>
         </div>
         <div className="content">
           <h2 className="title">Initial NFT Release 4/11</h2>
@@ -35,7 +36,7 @@ export default function Release() {
           </a>
         </div>
       </div>
-      <div className="release orange">
+      {/* <div className="release orange">
         <div className="content">
           <h2 className="title">DAO Release 4/11</h2>
           <p className="description">
@@ -55,7 +56,7 @@ export default function Release() {
           <img src={release1} alt="release" />
           <div className="ellipse pink"></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -114,6 +114,15 @@
   }
 }
 
+.react-slideshow-fade-wrapper  {
+  border-radius: 0.5rem;
+
+  img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+}
+
 .faq-row-wrapper {
   background-color:  transparent !important;
 }

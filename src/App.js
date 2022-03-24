@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Clients from "./components/Clients";
 import Footer from "./components/Footer";
-import Free from "./components/Free";
+import Slides from "./components/Slides";
 import Home from "./components/Home";
 import SuperRare from "./components/SuperRare";
 import Like from "./components/Like";
@@ -55,9 +55,9 @@ function App() {
       <ScrollToTop />
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
-      <Free />
-      <Clients />
       <Release />
+      <Clients />
+      <Slides/>
       <Like />
       <Signup />
       <Questions />
