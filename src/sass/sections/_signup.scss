@@ -114,6 +114,32 @@
   }
 }
 
+.intro {
+  padding-top: 10%;
+  .title {
+    font-size: 2rem;
+    color: var(--accent-color1);
+    text-align: center;
+  }
+
+  .description-box {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .description {
+    font-size: 1.3rem;
+    color: var(--accent-color1);
+    text-align: center;
+    a {
+      color: var(--accent-color3);
+      font-weight: bold;
+    }
+    padding-top: 5%;
+    padding-bottom: 20%;
+  }
+}
+
 .react-slideshow-fade-wrapper  {
   border-radius: 0.5rem;
 

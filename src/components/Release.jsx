@@ -8,7 +8,7 @@ import Card from "./Card";
 export default function Release() {
   return (
     <div className="releases">
-      <div className="release blue">
+      <div className="release">
         <div className="card-container">
           <Card
             image={avatar}
@@ -18,7 +18,6 @@ export default function Release() {
             tag="0"
             time={2}
           />
-          <div className="ellipse white"></div>
         </div>
         <div className="content">
           <h2 className="title">Initial NFT Release 4/11</h2>

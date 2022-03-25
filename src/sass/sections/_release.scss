@@ -4,10 +4,12 @@
   flex-direction: column;
   gap: 5rem;
   .release {
+    background-color: var(--background);
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 0.5rem;
     .content {
+      color: var(--accent-color1);
       padding: 5rem 8rem;
 
       display: flex;
@@ -15,16 +17,18 @@
       gap: 2rem;
       .title {
         font-size: 2rem;
+        color: var(--accent-color1);
       }
       .description {
         font-size: 1.3rem;
+        color: var(--accent-color1);
         a {
-          color: black;
+          color: var(--accent-color3);
           font-weight: bold;
         }
       }
       .link {
-        color: black;
+        color: var(--accent-color3);
         font-weight: bold;
         text-decoration: none;
         display: flex;
@@ -67,7 +71,7 @@
       overflow: hidden;
       .card-image {
         img {
-          height: 14rem;
+          height: 16rem;
         }
       }
       .ellipse {
@@ -91,7 +95,10 @@
     background-color: var(--green);
   }
   .blue {
-    background-color: var(--light-green);
+    background-color: --accent-color1;
+  }
+  .white {
+    background-color: white;
   }
 }
 

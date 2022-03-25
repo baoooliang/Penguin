@@ -24,6 +24,13 @@ export default function Slides() {
   
   return (
     <div className="slide-container">
+      <div className="intro">
+        <h2 className="title">Our mission</h2>
+        <div className="description-box">
+          <p className="description">We are dedicated to making our world a better places. Half of the profit will used to 
+          support refugees, stop global warming, and support other charity events</p>
+        </div>
+      </div>
       <Fade>
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
