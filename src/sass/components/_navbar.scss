@@ -5,7 +5,7 @@ nav {
   .brand-container {
     .brand {
       img {
-        height: 100%;
+        width: 4%;
       }
     }
     .toggle-container {
@@ -42,17 +42,6 @@ nav {
   }
 }
 
-[data-theme="light"] {
-  nav {
-    .brand-container {
-      .brand {
-        img {
-          filter: brightness(0);
-        }
-      }
-    }
-  }
-}
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {
   nav {

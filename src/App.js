@@ -3,13 +3,14 @@ import Clients from "./components/Clients";
 import Footer from "./components/Footer";
 import Slides from "./components/Slides";
 import Home from "./components/Home";
-import SuperRare from "./components/SuperRare";
+import Plan from "./components/Plan";
 import Like from "./components/Like";
 import Navbar from "./components/Navbar";
 import Release from "./components/Release";
 import ScrollToTop from "./components/ScrollToTop";
 import Signup from "./components/Signup";
 import Questions from "./components/Questions";
+import Dao from "./components/Dao";
 import scrollreveal from "scrollreveal";
 import "./sass/index.scss";
 function App() {
@@ -56,10 +57,10 @@ function App() {
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
       <Release />
-      {/* <Clients /> */}
       <Slides/>
       <Like />
-      <Signup />
+      <Plan />
+      <Dao />
       <Questions />
       <Footer />
     </div>

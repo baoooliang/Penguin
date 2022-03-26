@@ -140,6 +140,11 @@
   }
 }
 
+.roadmap {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
 .react-slideshow-fade-wrapper  {
   border-radius: 0.5rem;
 
@@ -177,11 +182,12 @@
 }
 
 .faq-title {
-  margin-top: 50px;
-  align-self: center;
+  margin-top: 10%;
   h2 {
     font-weight: 900 !important;
     color: var(--accent-color1);
+    width: 100%;
+    text-align: center;
   }
   
 }

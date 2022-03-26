@@ -27,8 +27,8 @@ export default function Slides() {
       <div className="intro">
         <h2 className="title">Our mission</h2>
         <div className="description-box">
-          <p className="description">We are dedicated to making our world a better places. Half of the profit will used to 
-          support refugees, stop global warming, and support other charity events</p>
+          <p className="description">We are dedicated to making our world a better place. Half of the profit will be used to 
+          support refugees, stop global warming, and donate to other charity events</p>
         </div>
       </div>
       <Fade>
