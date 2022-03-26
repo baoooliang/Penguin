@@ -14,7 +14,7 @@ import Dao from "./components/Dao";
 import scrollreveal from "scrollreveal";
 import "./sass/index.scss";
 function App() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
   const changeTheme = () => {
     theme === "dark" ? setTheme("light") : setTheme("dark");
   };
